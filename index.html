@@ -3,11 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site de Teste</title>
+  <meta name="description" content="Site pessoal com informações e conteúdo">
+  <meta name="author" content="EddLN">
+  <title>Site - EddLN</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Olá, mundo!</h1>
-  <p>Este é um HTML simples.</p>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">EddLN</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Bem-vindo!</h1>
+        <p>Este é um site de apresentação criado com HTML e CSS.</p>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Sobre</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1</p>
+          </div>
+          <div class="project-card">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2</p>
+          </div>
+          <div class="project-card">
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto 3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através das redes sociais ou email.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 EddLN. Todos os direitos reservados.</p>
+      <p>Desenvolvido com ❤️</p>
+    </div>
+  </footer>
 </body>
 </html>
 
